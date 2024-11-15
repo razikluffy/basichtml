@@ -1,0 +1,321 @@
+body{
+    background-image: url(images/GIF.gif);
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: 'Acme', sans-serif;
+    font-style: normal;
+    overflow-y: scroll;
+}
+.menu-List-container{
+    display: grid;
+    padding: 10px;
+    gap: 20px;
+    border: 10px;
+    grid-template-areas:'list1 . . . list2 . . . . list3'
+    'list4 . . . list5 . . . . list6'
+    'list7 . . . list8 . . . . list9'
+    'list10 . . . . . . . . .'
+    '. . . . . . . . . .' 
+    '. . . . . . . . . .'
+    '. . . . . . . . . .'
+    '. . . . . . . . . .'
+    '. . . . . . . . . .'
+    '. . . . . . . . . .';
+}
+.fundamentals{
+    grid-area: list1;
+    border: 20px;
+    padding: 5px;
+    background: rgb(255 255 255 / 65%);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid #fff;
+    position: relative;
+    width: 400px;
+    height: auto;
+}
+.fundamentals img{
+    padding: 5px;
+    border: 5px;
+    margin: 3px;
+    position: absolute;
+    right: 50px;
+    bottom: 40px; 
+    max-width: 30%;
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+
+.fundamentals img:hover {
+    transform: scale(1.1) rotate(5deg);
+    opacity: 0.9; 
+    cursor: pointer; 
+}
+.lassi{
+    grid-area: list2;
+    border: 20px;
+    padding: 5px;
+    background: rgb(255 255 255 / 65%);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid #fff;
+    -webkit-backdrop-filter: blur(4px);
+    position: relative;
+    width: 400px;
+    height: auto;
+}
+.lassi img{
+    padding: 5px;
+    border: 5px;
+    margin: 3px;
+    position: absolute;
+    right: 40px;
+    bottom: 40px; 
+    max-width: 30%;
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+
+.lassi img:hover {
+    transform: scale(1.1) rotate(5deg);
+    opacity: 0.9; 
+    cursor: pointer; 
+}
+.potato-fries{
+    grid-area: list3;
+    border: 20px;
+    padding: 5px;
+    background: rgb(255 255 255 / 65%);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid #fff;
+    position: relative;
+    width: 400px;
+    height: auto;
+}
+.potato-fries img{
+    padding: 5px;
+    border: 5px;
+    margin: 3px;
+    position: absolute;
+    right: 10px;
+    bottom: 40px; 
+    max-width: 30%;
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+
+.potato-fries img:hover {
+    transform: scale(1.1) rotate(5deg);
+    opacity: 0.9; 
+    cursor: pointer; 
+}
+.sandwiches{
+    grid-area: list4;
+    border: 20px;
+    padding: 5px;
+    background: rgb(255 255 255 / 65%);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid #fff;
+    position: relative;
+    width: 400px;
+    height: auto;
+}
+.sandwiches img{
+    padding: 5px;
+    border: 5px;
+    margin: 3px;
+    position: absolute;
+    right: 10px;
+    bottom: 40px; 
+    max-width: 30%;
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+.sandwiches img:hover {
+    transform: scale(1.1) rotate(5deg);
+    opacity: 0.9; 
+    cursor: pointer; 
+}
+.salads{
+    grid-area: list5;
+    border: 20px;
+    padding: 5px;
+    background: rgb(255 255 255 / 65%);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid #fff;
+    position: relative;
+    grid-row: 400px;
+    grid-column: 400px;
+    width: 400px;
+    height: auto;
+}
+.salads img{
+    padding: 5px;
+    border: 5px;
+    margin: 3px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px; 
+    max-width: 30%;
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+.salads img:hover {
+    transform: scale(1.1) rotate(5deg);
+    opacity: 0.9; 
+    cursor: pointer; 
+}
+.mojito{
+    grid-area: list6;
+    border: 20px;
+    padding: 5px;
+    background: rgb(255 255 255 / 65%);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid #fff;
+    position: relative;
+    width: 400px;
+    height: auto;
+}
+.mojito img{
+    padding: 5px;
+    border: 5px;
+    margin: 3px;
+    position: absolute;
+    right: 10px;
+    bottom: 40px; 
+    max-width: 30%;
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+.mojito img:hover {
+    transform: scale(1.1) rotate(5deg);
+    opacity: 0.9; 
+    cursor: pointer; 
+}
+.dryfruits{
+    grid-area: list7;
+    border: 20px;
+    padding: 5px;
+    background: rgb(255 255 255 / 65%);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid #fff;
+    width: 400px;
+    height: auto;
+}
+.dryfruits img{
+    padding: 5px;
+    border: 5px;
+    margin: 3px;
+    position: absolute;
+    right: 10px;
+    bottom: 40px; 
+    max-width: 30%;
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+.dryfruits img:hover {
+    transform: scale(1.1) rotate(5deg);
+    opacity: 0.9; 
+    cursor: pointer; 
+}
+.krushers{
+    grid-area: list8;
+    border: 20px;
+    padding: 5px;
+    background: rgb(255 255 255 / 65%);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid #fff;
+    width: 400px;
+    height: auto;
+}
+.krushers img{
+    padding: 5px;
+    border: 5px;
+    margin: 3px;
+    position: absolute;
+    right: 10px;
+    bottom: 40px; 
+    max-width: 30%;
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+.krushers img:hover {
+    transform: scale(1.1) rotate(5deg);
+    opacity: 0.9; 
+    cursor: pointer; 
+}
+.mocktails{
+    grid-area: list9;
+    border: 20px;
+    padding: 5px;
+    background: rgb(255 255 255 / 65%);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid #fff;
+    width: 400px;
+    height: auto;
+}
+.mocktails img{
+    padding: 5px;
+    border: 5px;
+    margin: 3px;
+    position: absolute;
+    right: 10px;
+    bottom: 40px; 
+    max-width: 30%;
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+.mocktails img:hover {
+    transform: scale(1.1) rotate(5deg);
+    opacity: 0.9; 
+    cursor: pointer; 
+}
+.litre-juices{
+    grid-area: list10;
+    border: 20px;
+    padding: 5px;
+    background: rgb(255 255 255 / 65%);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid #fff;
+    width: 400px;
+    height: auto;
+}
+.litre-juices img{
+    padding: 5px;
+    border: 5px;
+    margin: 3px;
+    position: absolute;
+    right: 10px;
+    bottom: 40px; 
+    max-width: 30%;
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+.litre-juices img:hover {
+    transform: scale(1.1) rotate(5deg);
+    opacity: 0.9; 
+    cursor: pointer; 
+}
+h2{
+    color: darkcyan;
+    text-align: center;
+}
+.text{
+    font-family: 'Acme', sans-serif;
+    font-size: 48px;
+    background-image: url('images/polina-grishma-jyyMaxBI8Uk-unsplash.jpg');
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center; 
+    animation: wind 3s infinite ease-in-out; 
+    position: relative;
+}
+
+@keyframes wind {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+}
+
